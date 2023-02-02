@@ -10,8 +10,26 @@
 
 <body>
     
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <h1>PharmaPort</h1><br>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav">
+  <a href="#home" class="active">PHARMAPORT</a>
+
+  <div id="myLinks">
+    <a href="#meistä">Meistä</a>
+    <a href="#palaute">Palaute</a>
+    <a href="#tilaa">Tilaa</a>
+  </div>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
     <h2>Lääkkeiden saumaton kotiinkuljetus sairaille, liikuntarajoitteisille - kaikille!<br></h2>
     <p><nav><a href="apteekki.html">Tilaa apteekista</a></nav> | <a href="#meistä">Meistä</a> | <a href="#palaute">Palaute</a></p>
     <p>PharmaPort tuo reseptilääkkeet ja muut apteekkituotteet suoraan kotiovellesi.
@@ -19,6 +37,7 @@
         <br>
 
     </p>
+
     <h2 id="tilaa">Tilaa apteekista</h2><br>
  
     
@@ -43,5 +62,16 @@
     <h2 id="palaute">Palaute</h2>
     <p>Haluatko antaa palautetta? Entä onko jotain kysyttävää? Laita viestiä tähän tähän ja tähän. Kiireellisissä asioissa soita tänne tänne ja tänne</p>
     
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
 </body>
 </html>

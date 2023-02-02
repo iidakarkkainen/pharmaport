@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image:url("https://cdn.pixabay.com/photo/2020/02/06/01/52/frame-4822807_1280.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  </style>
+<title>PharmaPort</title>
+</head>
+<body style="background-color:rgb(255, 255, 255);"></body>
+<h1 style="color:black;"> Anna meille palautetta!</h1>
+<p>Pyrimme moitteettomaan asiakaspalveluun ja haluamme jatkuvasta parantaa toimintaamme.</p>
+<link rel="stylesheet" type="text/css" href="Palaute styles.css">
+
+<h2>Arvioi toimintamme!</h2>
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $(".fa-star").click(function() {
+      $(this).toggleClass("checked");
+      $(this).prevAll().toggleClass("checked");
+    });
+  });
+</script>
+<form id="feedback-form">
+  <br><br>
+  <label for="fname">Etunimi:</label><br>
+  <input type="text" id="fname" name="fname" value="Matti"><br>
+  <label for="lname">Sukunimi:</label><br>
+  <input type="text" id="lname" name="lname" value="Kuikka"><br><br>
+  <textarea rows="4" cols="50" placeholder="Kehuja, kysymys, valitus..."></textarea><br><br>
+  <input type="submit" value="Submit">
+</form>
+</p>
+
+<p>Kiitos palautteesta.</p>
+</body>
+</html>

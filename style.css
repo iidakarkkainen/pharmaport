@@ -24,16 +24,17 @@ body {
   }
 
 h2 {
-    text-align: center;
-    color: #2448e9;
-    font-size: 1em;
+     text-align: center;
+    color: #004E64;
+    font-size: 2em;
 }
 
 p {
-    text-align: center;
-    color: black;
-    margin-left: 8cm;
-    margin-right: 8cm;
+      text-align: center;
+    color: #1C110A;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    font-size: 2em;
 }
 
 nav {
@@ -114,7 +115,7 @@ nav {
     
   .button {
      border: none;
-     color: white;
+     color: #E4E9B2;
      padding: 16px 32px;
      text-align: center;
      text-decoration: none;
@@ -126,13 +127,13 @@ nav {
 }
 
   .button1 {
-     background-color: white; 
-     color: black; 
-     border: 2px solid #4CAF50;
+     background-color: #E4E9B2; 
+     color: #0e253c; 
+     border: 2px solid #004E64;
 }
 
   .button1:hover {
-     background-color: #4CAF50;
-     color: white;
+     background-color: #E4E9B2;
+     color: #0e253c;
 }
 

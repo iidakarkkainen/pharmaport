@@ -5,15 +5,23 @@ body {
     
 }
 
-h1 {
-    text-align: center;
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .header h1 {
+    position: relative;
     color: #2448e9;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: normal;
-    margin-top: 40px;
-    font-size: 3em;
-    text-shadow: .05em .05em .1em rgb(42, 45, 48);
-}
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: normal;
+  margin-top: 40px;
+  font-size: 3em;
+  text-shadow: .05em .05em .1em rgb(42, 45, 48);
+    top: 11px;
+    left: 4px;
+  }
 
 h2 {
     text-align: center;

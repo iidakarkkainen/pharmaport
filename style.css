@@ -1,7 +1,7 @@
 body {
     margin: 0 10%;
     font-family: Georgia, sans-serif;
-    background-color: #E4E9B2;
+    background-color: #FAFFD8;
     
 }
 
@@ -116,7 +116,7 @@ nav {
     
   .button {
      border: none;
-     color: #E4E9B2;
+     color: #FAFFD8;
      padding: 16px 32px;
      text-align: center;
      text-decoration: none;
@@ -128,13 +128,13 @@ nav {
 }
 
   .button1 {
-     background-color: #E4E9B2; 
+     background-color: #FAFFD8; 
      color: #0e253c; 
      border: 2px solid #004E64;
 }
 
   .button1:hover {
-     background-color: #E4E9B2;
+     background-color: #FAFFD8;
      color: #0e253c;
 }
 

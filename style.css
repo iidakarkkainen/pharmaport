@@ -35,6 +35,8 @@ p {
     margin-left: 5cm;
     margin-right: 5cm;
     font-size: 2em;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #0e253c ; 
 }
 
 nav {

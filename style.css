@@ -130,7 +130,7 @@ nav {
   .button1 {
      background-color: #E0E1DD; 
      color: #0e253c; 
-     border: 2px solid #004E64;
+     border: 2px double #004E64;
 }
 
   .button1:hover {

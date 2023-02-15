@@ -56,7 +56,7 @@ input[type="radio"] {
   }
   
   .checked {
-    color: rgba(13, 255, 0, 0.189);
+    color: rgba(255, 213, 0, 0.479);
     text-align: center;
   }
   body {

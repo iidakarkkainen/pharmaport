@@ -1,6 +1,6 @@
 body {
     margin: 0 10%;
-    font-family: Georgia, sans-serif;
+    font-family: sans-serif;
     background-color: #E0E1DD;
     
 }
@@ -13,12 +13,11 @@ body {
   
   .header h1 {
     position: relative;
-    color: #2448e9;
+    color: #528e9f;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: normal;
   margin-top: 40px;
   font-size: 3em;
-  text-shadow: .05em .05em .1em rgb(42, 45, 48);
     top: 11px;
     left: 4px;
   }
@@ -73,12 +72,12 @@ nav {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #568796 ;
+    color: white;
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #376e7f;
     color: white;
 }
 
@@ -130,12 +129,11 @@ nav {
   .button1 {
      background-color: #E0E1DD; 
      color: #0e253c; 
-     border: 2px double #004E64;
+     border: 2px solid #004E64;
 }
 
   .button1:hover {
      background-color: #004E64;
      color: #E0E1DD;
 }
-
 

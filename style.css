@@ -1,144 +1,143 @@
 body {
-    margin: 0 10%;
-    font-family: sans-serif;
-    background-color: #E0E1DD;
-     margin-top: 30px;
-    
+  margin: 0 10%;
+  font-family: sans-serif;
+  background-color: #E0E1DD;
+   margin-top: 30px;
+  
 }
 
 .header img {
-    float: left;
-    width: 100px;
-    height: 100px;
-  }
-  
-  .header h1 {
-    position: relative;
-    color: #528e9f;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: normal;
-  margin-top: 40px;
-  font-size: 3em;
-    top: 11px;
-    left: 4px;
-  }
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  position: relative;
+  color: #528e9f;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: normal;
+margin-top: 40px;
+font-size: 3em;
+  top: 11px;
+  left: 4px;
+}
 
 h2 {
-     text-align: center;
-    color: #004E64;
-    font-size: 2em;
+   text-align: center;
+  color: #004E64;
+  font-size: 2em;
 }
 
 p {
-      text-align: center;
-    color: #1C110A;
-    margin-left: 5cm;
-    margin-right: 5cm;
-    font-size: 2em;
-    margin-bottom: 50px;
-    border-bottom: 1px solid #0e253c ; 
+    text-align: center;
+  color: #1C110A;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  font-size: 2em;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #0e253c ; 
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
 .responsive {
-    width:100%;
-    height:auto;
+  width:100%;
+  height:auto;
 }
 
 .topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 80%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 80%;
 }
 
 .topnav #myLinks {
-    display: none;
+  display: none;
 }
 
 .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
 .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .topnav a:hover {
-    background-color: #568796 ;
-    color: white;
+  background-color: #568796 ;
+  color: white;
 }
 
 .active {
-    background-color: #376e7f;
-    color: white;
+  background-color: #376e7f;
+  color: white;
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2em;
-    }
+  h1 {
+      font-size: 2em;
+  }
 
-    h2 {
-        font-size: 0.8em;
-    }
+  h2 {
+      font-size: 0.8em;
+  }
 
-    p {
-        margin-left: 0;
-        margin-right: 0;
-        font-size: 0.8em;
-    }
+  p {
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 0.8em;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .topnav a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
-    
-    .topnav .icon {
-      display: block;
-      float: right;
-    }
-    
-    .topnav.responsive #myLinks {
-      display: block;
-    }
-    
-  .button {
-     border: none;
-     color: #E0E1DD;
-     padding: 16px 32px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
-     transition-duration: 0.4s;
-     cursor: pointer;
-}
-
-  .button1 {
-     background-color: #E0E1DD; 
-     color: #0e253c; 
-     border: 2px solid #004E64;
+  
+  .topnav .icon {
+    display: block;
+    float: right;
+  }
+  
+  .topnav.responsive #myLinks {
+    display: block;
+  }
+  
+.button {
+   border: none;
+   color: #E0E1DD;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
 }
 
-  .button1:hover {
-     background-color: #004E64;
-     color: #E0E1DD;
+.button1 {
+   background-color: #E0E1DD; 
+   color: #0e253c; 
+   border: 2px solid #004E64;
 }
 
+.button1:hover {
+   background-color: #004E64;
+   color: #E0E1DD;
+}

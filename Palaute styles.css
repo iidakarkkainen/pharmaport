@@ -3,6 +3,7 @@ h1, h2{
     font-family:  sans-serif;
      font-weight: 900;
     text-align: center;
+    color: #004E64;
 }
 @media only screen and (max-width: 600px) {
   h1, h2 {
@@ -27,7 +28,7 @@ h1, h2{
 }
 p {
     margin: 50px;
-    font-family: "niveau-grotesk", sans-serif;
+    font-family:  sans-serif;
     font-weight: 300;
     font-style: normal;
     text-align: center;

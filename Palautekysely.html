@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PharmaPort - Lääkkeet suoraan ovellesi</title>
-    <link rel="icon" type="Pharmaport_Logo_color" href="C:\Users\Iida\Downloads\Pharmaport_Logo_color.png">
+    <link rel="icon" type="Pharmaport_Logo_color" href="C:\Users\jonna\Documents\Turku AMK\Web-suunnittelu\LWD5e_materials\LWD5e_materials\PHARMAPORT\PharmaPort\Pharmaport_Logo_color – kopio.png">
   <style>
     body {
       background-image:url("https://cdn.pixabay.com/photo/2015/09/14/17/07/watercolor-939784_1280.jpg");
@@ -22,7 +19,7 @@
 </head>
 <body style="background-color:rgb(255, 255, 255);">
   <img src="C:\Users\jonna\Documents\Turku AMK\Web-suunnittelu\LWD5e_materials\LWD5e_materials\PHARMAPORT\PharmaPort\Pharmaport_Logo_color_background.png" alt="PharmaPort Logo" class="logo">
-  <h1 style="color:black;">Anna meille palautetta!</h1>
+  <h1 style="color: #004E64;">Anna meille palautetta!</h1>
   <p>Pyrimme moitteettomaan asiakaspalveluun ja haluamme jatkuvasta parantaa toimintaamme.</p>
   <link rel="stylesheet" type="text/css" href="Palaute styles.css">
 
@@ -41,6 +38,18 @@
       $(this).prevAll().toggleClass("checked");
     });
   });
+  document.onkeydown = function(event) {
+  switch (event.keyCode) {
+    case 37:
+      break;
+    case 38:
+      break;
+    case 39:
+      break;
+    case 40:
+      break;    
+  }
+};
 </script>
 <form id="feedback-form">
   <br><br>
@@ -56,7 +65,7 @@
 <p>Kiitos palautteesta.</p>
 <p><nav>
   <button class="button button1" onclick="location.href='PharmaPort.html'">Palaa etusivulle</button>
-  
 </a></p>
+
 </body>
 </html>
